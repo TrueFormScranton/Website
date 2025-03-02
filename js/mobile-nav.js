@@ -7,14 +7,12 @@ var mobileNavbarElem = document.querySelector('.mobile-nav');
 var navbarOpen = false;
 
 function openMobileNav() {
-    console.log('Open Nav Menu');
     mobileNavbar.style.opacity = "100%";
     mobileNavbar.style.transform = "translateX(0%)";
     navbarOpen = true;
 }
 
 function closeMobileNav() {
-    console.log('Closed Nav Menu');
     mobileNavbar.style.opacity = "0%";
     mobileNavbar.style.transform = "translateX(-100%)";
     navbarOpen = false;
@@ -33,7 +31,6 @@ navToggle.addEventListener('click', function() {
 mobileNavLinks.forEach(function(link) {
     link.addEventListener('click', function() {
         if (window.innerWidth <= 770) {
-            console.log('Nav Link Clicked');
             closeMobileNav();
         }
     });

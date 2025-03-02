@@ -30,7 +30,7 @@ body {
 html::-webkit-scrollbar {
     display: none;
 }
-  
+
 /* Hide scrollbar for IE, Edge and Firefox */
 html {
     -ms-overflow-style: none;  /* IE and Edge */
@@ -65,7 +65,7 @@ html {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(1800deg); }
 }
-  
+
 
 strong {
     font-weight: 800;
@@ -249,7 +249,7 @@ h2 {
     font-weight: 800;
     font-size: 2.5rem;
     margin: 0;
-    letter-spacing: .2em; 
+    letter-spacing: .2em;
 }
 
 .landing-content-wrapper h1 span {
@@ -438,7 +438,7 @@ h2 {
 
 .hero-desc h2 {
     font-weight: 400;
-    letter-spacing: .2em;   
+    letter-spacing: .2em;
 }
 
 .hero-desc h3 {
@@ -557,7 +557,7 @@ h2 {
 
 .services-desc h2 {
     font-weight: 400;
-    letter-spacing: .2em;   
+    letter-spacing: .2em;
 }
 
 .services-desc p {
@@ -665,7 +665,7 @@ h2 {
     color: white;
     text-align: center;
     filter: contrast(1.5);
-    z-index: 2; /* To ensure the text is always on top */ 
+    z-index: 2; /* To ensure the text is always on top */
 }
 
 .portfolio-desc {
@@ -683,7 +683,7 @@ h2 {
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
-} 
+}
 
 .project {
     display: flex;
@@ -711,6 +711,10 @@ h2 {
 .project a {
     margin: 0;
     padding: 0;
+}
+
+#emailLink {
+    cursor: pointer;
 }
 
 .project img {
@@ -1013,12 +1017,12 @@ footer .text-logo {
         height: 234px;
         overflow: hidden;
     }
-    
+
     .hero-img img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }    
+    }
 
     .services-desc {
         padding: 15px;
